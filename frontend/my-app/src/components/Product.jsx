@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import {Card} from "react-bootstrap"
 import Rating from './Rating'
 import {Link} from "react-router-dom"

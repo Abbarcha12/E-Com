@@ -17,7 +17,6 @@ function App() {
 <Routes>
   <Route path="/" element={<HomeScreen/>} exact />
   <Route path="/product/:id" element={<Productscreen/>} exact />
-
 </Routes>
  </Container>
   </main>

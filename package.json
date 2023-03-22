@@ -1,0 +1,30 @@
+{
+  "name": "ecommerceapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "start": " node backend/server",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend my-app ",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abbarcha12/E-Com.git"
+  },
+  "author": "Abrar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abbarcha12/E-Com/issues"
+  },
+  "homepage": "https://github.com/Abbarcha12/E-Com#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "D": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
