@@ -13,7 +13,6 @@ const products = [
     numReviews: 12,
   },
   {
-
     name: 'iPhone 11 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
